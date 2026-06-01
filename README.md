@@ -26,10 +26,9 @@ Analisis dilakukan untuk menjawab beberapa pertanyaan bisnis berikut:
 
 ## 🛠️ Tools & Technologies
 
-- Microsoft Excel
-- Google BigQuery
-- SQL
-- Looker Studio
+![SQL](https://img.shields.io/badge/SQL-BigQuery-blue)
+![Excel](https://img.shields.io/badge/Excel-Data%20Cleaning-green)
+![Looker Studio](https://img.shields.io/badge/Looker%20Studio-Dashboard-orange)
 
 ---
 
