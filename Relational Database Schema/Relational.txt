@@ -1,0 +1,36 @@
+Table customers {
+  CustomerID int [pk]
+  FirstName varchar
+  LastName varchar
+  CustomerEmail varchar
+  CustomerPhone varchar
+  CustomerAddress varchar
+  CustomerCity varchar
+  CustomerState varchar
+  CustomerZip varchar
+}
+
+Table orders {
+  OrderID int [pk]
+  Date date
+  CustomerID int
+  ProdNumber varchar
+  Quantity int
+}
+
+Table products {
+  ProdNumber varchar [pk]
+  ProdName varchar
+  Category int
+  Price float
+}
+
+Table prodcat {
+  CategoryID int [pk]
+  CategoryName varchar
+  CategoryAbbreviation varchar
+}
+
+Ref: orders.CustomerID > customers.CustomerID
+Ref: orders.ProdNumber > products.ProdNumber
+Ref: products.Category > prodcat.CategoryID
