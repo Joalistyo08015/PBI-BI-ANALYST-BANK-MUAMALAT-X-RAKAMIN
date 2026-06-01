@@ -30,8 +30,6 @@ Analisis dilakukan untuk menjawab beberapa pertanyaan bisnis berikut:
 ![Excel](https://img.shields.io/badge/Excel-Data%20Cleaning-green)
 ![Looker Studio](https://img.shields.io/badge/Looker%20Studio-Dashboard-orange)
 
-## 🛠️ Tools
-
 | Tool | Function |
 |--------|----------|
 | Excel | Data Cleaning & Preparation |
