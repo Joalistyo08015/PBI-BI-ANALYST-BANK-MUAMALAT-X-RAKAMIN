@@ -1,0 +1,23 @@
+/*
+Soal 1
+Tentukan masing-masing primary key pada 4 dataset
+penjualan
+1. Primary key tabel Customer :
+2. Primary key tabel Products :
+3. Primary key tabel Orders :
+4. Primary key tabel ProductCategory :
+*/
+
+##PRIMARY KEY##
+--Table Customer--
+alter table astute-buttress-497804-j1.PBI_BankMuamalatXRAKAMIN.customers
+add primary key (CustomerID) not enforced;
+--Table Products--
+alter table astute-buttress-497804-j1.PBI_BankMuamalatXRAKAMIN.products
+add primary key (ProdNumber) not enforced;
+--Table Orders--
+alter table astute-buttress-497804-j1.PBI_BankMuamalatXRAKAMIN.orders
+add primary key(OrderID) not enforced;
+--Table ProductCategory (prodcat)--
+alter table astute-buttress-497804-j1.PBI_BankMuamalatXRAKAMIN.prodcat
+add primary key (CategoryID) not enforced;
