@@ -1,0 +1,36 @@
+/*
+Soal 3
+Sebagai BI Analyst PT Sejahtera Bersama, kita akan membuat sebuah table master yang berisikan informasi : 
+-CustomerEmail (cust_email)
+-CustomerCity (cust_city)
+-OrderDate (order_date)
+-OrderQty (order_qty)
+-ProductName (product_name)
+-ProductPrice (product_price)
+-ProductCategoryName (category_name)
+-TotalSales (total_sales) 
+Urutkan data tersebut berdasarkan tanggal transaksi yang paling awal sampai yang paling akhir. */
+CREATE OR REPLACE TABLE `astute-buttress-497804-j1.PBI_BankMuamalatXRAKAMIN.master_table` AS
+
+SELECT
+    o.Date AS order_date,
+    pc.CategoryName AS category_name,
+    p.ProdName AS product_name,
+    CAST(p.Price AS FLOAT64) AS product_price,
+    o.Quantity AS order_qty,
+    o.Quantity * CAST(p.Price AS FLOAT64) AS total_sales,
+    c.CustomerEmail AS cust_email,
+    c.CustomerCity AS cust_city
+
+FROM `astute-buttress-497804-j1.PBI_BankMuamalatXRAKAMIN.orders` o
+
+JOIN `astute-buttress-497804-j1.PBI_BankMuamalatXRAKAMIN.customers` c
+ON o.CustomerID = c.CustomerID
+
+JOIN `astute-buttress-497804-j1.PBI_BankMuamalatXRAKAMIN.products` p
+ON o.ProdNumber = p.ProdNumber
+
+JOIN `astute-buttress-497804-j1.PBI_BankMuamalatXRAKAMIN.prodcat` pc
+ON p.Category = pc.CategoryID
+
+ORDER BY order_date ASC;
