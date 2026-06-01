@@ -1,4 +1,4 @@
-# PBI-BI-ANALYST-BANK-MUAMALAT-X-RAKAMIN
+## PROJECT BASED INTERNSHIP BUSINESS ANALYST BANK MUAMALAT X RAKAMIN ##
 # 📊 Sales Performance Analysis PT Sejahtera Utama
 
 ## 📌 Latar Belakang
