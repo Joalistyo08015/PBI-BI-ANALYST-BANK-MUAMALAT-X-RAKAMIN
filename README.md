@@ -45,7 +45,7 @@ Analisis dilakukan untuk menjawab beberapa pertanyaan bisnis berikut:
 │   ├── Dashboard BI Sales PT. Sejahtera Utama
 │   └── Looker Studio Link
 │
-├── Raw_Data
+├── Raw_Data (Private_File)
 │   ├── Customers.xlsx
 │   ├── Orders.xlsx
 │   ├── ProductCategory.xlsx
