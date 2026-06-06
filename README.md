@@ -9,6 +9,8 @@ Manajemen ingin memahami performa penjualan perusahaan selama periode Januari 20
 
 Untuk mendukung pengambilan keputusan bisnis, dilakukan analisis data transaksi pelanggan menggunakan Google BigQuery dan visualisasi dashboard menggunakan Looker Studio.
 
+> **Catatan:** Dataset asli tidak disertakan dalam repository ini karena alasan kerahasiaan dan privasi data perusahaan. Repository ini berfokus pada proses perancangan database, pembuatan query SQL, pengembangan dashboard, dan analisis bisnis.
+
 ---
 
 ## 🎯 Tujuan Analisis
