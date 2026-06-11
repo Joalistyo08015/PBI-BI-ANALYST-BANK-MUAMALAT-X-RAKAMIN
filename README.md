@@ -119,11 +119,13 @@ Dashboard dan link Looker Studio tersedia pada folder **Data Visualization**.
 
 Hasil analisis dapat membantu perusahaan untuk:
 
-- Mengidentifikasi kategori produk dengan kontribusi penjualan terbesar.
-- Menentukan wilayah dengan performa penjualan tertinggi.
-- Memahami pola pembelian pelanggan.
-- Menyusun strategi pemasaran yang lebih efektif.
-- Mengoptimalkan pengelolaan produk dan penjualan.
+- Mempertahankan kategori Training Videos sebagai produk unggulan perusahaan.
+- Meningkatkan strategi upselling dan bundling pada kategori eBooks.
+- Memfokuskan aktivitas pemasaran pada kota dengan kontribusi penjualan terbesar.
+- Mengembangkan program loyalitas pelanggan untuk meningkatkan frekuensi pembelian.
+- Menerapkan strategi cross-selling antar kategori produk.
+- Melakukan evaluasi terhadap penurunan performa penjualan tahun 2021.
+
 
 ---
 
