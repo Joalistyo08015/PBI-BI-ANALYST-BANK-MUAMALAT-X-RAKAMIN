@@ -71,7 +71,7 @@ Analisis dilakukan untuk menjawab beberapa pertanyaan bisnis berikut:
 ## 🔄 Data Processing Workflow
 
 ### 1. Data Collection
-Menggunakan dataset transaksi penjualan yang terdiri dari data pelanggan, pesanan, produk, dan kategori produk.
+Menggunakan dataset transaksi penjualan yang terdiri dari data customers, orders, products, dan categories products.
 
 ### 2. Data Modeling
 Melakukan identifikasi primary key dan relationship antar tabel untuk membangun struktur database yang terintegrasi.
