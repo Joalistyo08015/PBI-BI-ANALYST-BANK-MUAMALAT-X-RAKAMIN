@@ -131,4 +131,4 @@ Hasil analisis dapat membantu perusahaan untuk:
 
 ## 👤 Author
 
-Project ini dibuat sebagai bagian dari portfolio Data Analyst menggunakan Google BigQuery dan Looker Studio.
+Proyek ini dikembangkan sebagai bagian dari program Project-Based Virtual Internship Bank Muamalat x Rakamin Academy. Analisis ini berfokus pada pengolahan data penjualan transaksional menjadi wawasan bisnis yang dapat ditindaklanjuti menggunakan SQL, Google BigQuery, dan Looker Studio.
